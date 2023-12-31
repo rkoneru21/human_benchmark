@@ -128,9 +128,9 @@ public class MonkeyAi implements KeyListener{
             }
         }
         ArrayList<Entry<BufferedImage, Integer>> entries = new ArrayList<Entry<BufferedImage, Integer>>();
-        File output = new File("C:/users/rkone/personal projects/human_benchmark-1/wordtestpics/screenshot.jpg");
+        File output = new File("C:/users/rkone/personal projects/human_benchmark/wordtestpics/screenshot.jpg");
         Tesseract tesseract = new Tesseract();
-        tesseract.setDatapath("C:/users/rkone/personal projects/human_benchmark-1/Tess4j/tessdata/");
+        tesseract.setDatapath("C:/users/rkone/personal projects/human_benchmark/Tess4j/tessdata/");
         tesseract.setLanguage("eng");
         tesseract.setVariable("tessedit_char_whitelist", "0123456789");
         tesseract.setVariable("tessedit_char_blacklist", " ");

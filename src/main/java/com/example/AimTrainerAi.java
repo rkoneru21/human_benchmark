@@ -66,7 +66,7 @@ public class AimTrainerAi implements KeyListener{
         while(x < 60){
             Rectangle rect = new Rectangle(200, 300, 900, 300);
             BufferedImage image = r.createScreenCapture(rect);
-            File output = new File("C:/users/rkone/personal projects/wordtestpics/screenshot.jpg");
+            File output = new File("C:/users/rkone/personal projects/human_benchmark/wordtestpics/screenshot.jpg");
             ImageIO.write(image, "jpg", output);
             Point p = this.getColorChangeCoordinates(image);
             r.mouseMove((int)p.getX() + 230, (int)p.getY() + 310);
